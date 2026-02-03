@@ -1,0 +1,17 @@
+[
+    {
+        "Title": "HTML",
+        "Full Form": "Hyper Text Markup Language",
+        "USE Case": "Web Page Structuring"
+    },
+    {
+        "Title": "CSS",
+        "Full Form": "Cascading Style Sheet",
+        "USE Case": "Web Page Styling"
+    },
+    {
+        "Title": "JS",
+        "Full Form": "JavaScript",
+        "USE Case": "Add functionality in Web Page"
+    }
+]
