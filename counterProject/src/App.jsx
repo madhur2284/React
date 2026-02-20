@@ -19,11 +19,12 @@ function App() {
   let [count, setCount] = useState(0);
   return (
     <>
-      <button onClick={()=>addValue(setCount)}>count is {count}</button>
+      <h1>Count is {count}</h1>
+      <button onClick={()=>addValue(setCount)}>Increment</button>
       <br />
-      <button onClick = {()=>subValue(setCount)}>count is {count}</button>
+      <button onClick = {()=>subValue(setCount)}>Decrement</button>
       <br />
-      <button onClick={()=>{setCount(0)}}>count is {count}</button>
+      <button onClick={()=>{setCount(0)}}>Reset</button>
     </>
   )
 }
